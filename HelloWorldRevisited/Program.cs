@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace HelloWorldRevisited
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(CreateMessage());
+        }
+
+        public static string CreateMessage()
+        {
+            return "Hello World Revisited!";
         }
     }
 }
