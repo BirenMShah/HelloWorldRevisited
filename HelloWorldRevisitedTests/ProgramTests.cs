@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace HelloWorldRevisited.Tests
 {
     [TestClass()]
-    public class ProgramTestsB
+    public class ProgramTests
     {
         [TestMethod()]
         public void CreateMessageTest()
