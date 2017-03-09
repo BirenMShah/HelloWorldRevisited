@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 namespace HelloWorldRevisited.Tests
 {
     [TestClass()]
-    public class ProgramTests
+    public class ProgramTestsB
     {
         [TestMethod()]
         public void CreateMessageTest()
         {
-            Assert.AreEqual("Hello Worlrd Revisited!", Program.CreateMessage());
+            Assert.AreEqual("Hello World Revisited!", Program.CreateMessage());
         }
     }
 }
