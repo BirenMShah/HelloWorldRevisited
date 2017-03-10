@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5c1b3e4d-76b0-4649-be4c-473a455ec38b" name="Admin@SHAH-WS 2017-03-09 18:42:26" runUser="SHAH\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="289aeb16-33e0-45d1-b326-2bc2327e2fe1">
+    <Deployment userDeploymentRoot="C:\Projects\HelloWorldRevisited" useDefaultDeploymentRoot="false" runDeploymentRoot="Admin_SHAH-WS 2017-03-09 18_42_26" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-03-09T18:42:26.6833370-05:00" queuing="2017-03-09T18:42:27.0403610-05:00" start="2017-03-09T18:42:27.1623715-05:00" finish="2017-03-09T18:42:27.5734055-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateMessageTest" storage="c:\projects\helloworldrevisited\helloworldrevisitedtests\bin\debug\helloworldrevisitedtests.dll" id="422e3ae6-38c2-d4a8-b9f8-9f8c961d5360">
+      <Execution id="d3335a1a-6b54-4d76-943e-5669c1033db3" />
+      <TestMethod codeBase="c:/Projects/HelloWorldRevisited/HelloWorldRevisitedTests/bin/Debug/HelloWorldRevisitedTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HelloWorldRevisited.Tests.ProgramTests, HelloWorldRevisitedTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateMessageTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="422e3ae6-38c2-d4a8-b9f8-9f8c961d5360" executionId="d3335a1a-6b54-4d76-943e-5669c1033db3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d3335a1a-6b54-4d76-943e-5669c1033db3" testId="422e3ae6-38c2-d4a8-b9f8-9f8c961d5360" testName="CreateMessageTest" computerName="SHAH-WS" duration="00:00:00.0145868" startTime="2017-03-09T18:42:27.2303771-05:00" endTime="2017-03-09T18:42:27.5194012-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3335a1a-6b54-4d76-943e-5669c1033db3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
