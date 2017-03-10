@@ -14,7 +14,7 @@ namespace HelloWorldRevisited.Tests
         [TestMethod()]
         public void CreateMessageTest()
         {
-            Assert.AreEqual("Hello World Revisited", Program.CreateMessage());
+            Assert.AreEqual("Hello World Revisited!", Program.CreateMessage());
         }
     }
 }
